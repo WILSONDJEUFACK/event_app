@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+  "target": "ES6",                          /* Change from ES5 to ES6 */
+    "lib": ["DOM", "ES2016"],                 /* Add ES2016 to support .includes() */
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"]
+}

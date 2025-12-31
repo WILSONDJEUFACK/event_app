@@ -1,0 +1,15 @@
+{
+  "name": "event-app",
+  "version": "1.0.0",
+  "description": "Mini Web Application for Event Management",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "npx serve ."
+    
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
