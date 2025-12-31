@@ -187,4 +187,3 @@ document.getElementById('show-create-btn')?.addEventListener('click', () => {
 });
 
 document.getElementById('search-input')?.addEventListener('input', renderArchive);
-document.getElementById('show-archive-btn')?.addEventListener('click', renderArchive);
